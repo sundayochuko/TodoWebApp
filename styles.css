@@ -1,0 +1,87 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgb(0, 255, 251), rgb(0, 132, 255));
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    /* height: 200px; */
+    min-height: 40vh;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.container button {
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.inputSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputSection input {
+    height: 30px;
+    width: 80%;
+    border: 1px;
+    border-radius: 5px;
+    border-color: gray;
+    border-style: solid;
+    outline-color: rgba(128, 0, 128, 0.862);
+    padding-left: 10px;
+}
+
+.inputSection button {
+    height: 36px;
+    width: 36px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(128, 0, 128, 0.862);
+    font-size: 20px;
+    border: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(128, 128, 128, 0.147);
+    margin-top: 20px;
+    /* height: 20px; */
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+}
+
+li button {
+    background-color: red;
+    border: none;
+    border-radius: 2px;
+    padding: 6px;
+    color: white;
+}
+
+.clearItemsSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
