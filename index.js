@@ -9,6 +9,8 @@ todoInput.addEventListener("keydown", function (event) {
   }
 });
 
+//
+
 function addTodo() {
   const todoText = todoInput.value.trim();
 
